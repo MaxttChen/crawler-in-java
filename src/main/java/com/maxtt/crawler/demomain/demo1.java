@@ -6,11 +6,14 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
+import com.maxtt.crawler.Util.MyUtils;
+
+
 //test
 public class demo1 {
 	public static void main(String[] args) {
-		doGetDemo("http://www.baidu.com");
-		System.err.println("////////////");
+		//doGetDemo("http://www.baidu.com");
+		MyUtils.Trans("apple", "en", "zh");
 	}
 	
 	/***
